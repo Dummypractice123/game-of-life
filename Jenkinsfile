@@ -1,6 +1,6 @@
 node('REDHAT')
 {
-    Stage('scm')
+    stage('scm')
     {
         git 'https://github.com/Dummypractice123/game-of-life.git'
     }
